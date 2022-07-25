@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Inter";
+}
+
+.stat__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(233deg, 47%, 7%);
+}
+.stat__content {
+  display: flex;
+  background-color: hsl(244deg, 38%, 16%);
+  color: hsla(0deg, 0%, 100%, 0.75);
+  width: 1000px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.stat__text-container {
+  padding: 40px;
+}
+.stat__numbers {
+  display: flex;
+}
+.stat__number-unit {
+  text-transform: uppercase;
+}
+.stat__img {
+  opacity: 0.6;
+  background-color: hsl(277deg, 64%, 61%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
