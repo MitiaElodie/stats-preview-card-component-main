@@ -15,7 +15,7 @@ $content-height: 400px;
 
 body {
    font-size: 15px;
-   font-family: 'Inter';
+   font-family: 'Lexend Deca';
 }
 
 .stat {
@@ -30,7 +30,7 @@ body {
    &__content {
       display: flex;
       background-color: $dark-saturated-blue;
-      color: $white-main-paragraph;
+      color: $white-stat-heading;
       width: $content-width;
       height: $content-height;
       border-radius: 10px;
@@ -52,6 +52,20 @@ body {
    &__img {
       opacity: 0.6;
       background-color: $soft-violet;
+   }
+
+   &__title,
+   &__number {
+      color: $white;
+      font-family: 'Inter';
+   }
+
+   &__insights {
+      color: $soft-violet;
+   }
+
+   &__number {
+      font-weight: 700;
    }
 }
 
