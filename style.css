@@ -30,13 +30,17 @@ body {
 }
 .stat__numbers {
   display: flex;
+  width: 50%;
 }
 .stat__number-unit {
   text-transform: uppercase;
 }
+.stat__img-container {
+  width: 50%;
+  background: #aa5cdb;
+}
 .stat__img {
   opacity: 0.6;
-  background-color: hsl(277deg, 64%, 61%);
 }
 .stat__title, .stat__number {
   color: hsl(0deg, 0%, 100%);

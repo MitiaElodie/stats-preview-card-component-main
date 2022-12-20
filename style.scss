@@ -43,15 +43,20 @@ body {
 
    &__numbers {
       display: flex;
+      width: 50%;
    }
 
    &__number-unit {
       text-transform: uppercase;
    }
 
+   &__img-container {
+      width: 50%;
+      background: rgba($color: $soft-violet, $alpha: 1)
+   }
+
    &__img {
       opacity: 0.6;
-      background-color: $soft-violet;
    }
 
    &__title,
