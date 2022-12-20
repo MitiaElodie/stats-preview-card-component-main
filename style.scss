@@ -39,11 +39,14 @@ body {
 
    &__text-container {
       padding: 40px;
+      padding-right: 100px;
+      padding-top: 60px;
    }
 
    &__numbers {
       display: flex;
-      width: 50%;
+      margin-top: 60px;
+      justify-content: space-between;
    }
 
    &__number-unit {
@@ -71,6 +74,21 @@ body {
 
    &__number {
       font-weight: 700;
+      font-size: 1.2em;
+      margin-bottom: 8px;
+   }
+
+   &__number-unit {
+      font-size: 0.8em;
+   }
+
+   &__title {
+      font-weight: 1000;
+      margin-bottom: 24px;
+   }
+
+   &__details {
+      line-height: 1.5em;
    }
 }
 
