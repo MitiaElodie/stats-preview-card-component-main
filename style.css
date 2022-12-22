@@ -24,11 +24,13 @@ body {
   height: 400px;
   border-radius: 10px;
   overflow: hidden;
+  margin: 20px;
 }
 .stat__text-container {
   padding: 40px;
   padding-right: 100px;
   padding-top: 60px;
+  width: 50%;
 }
 .stat__numbers {
   display: flex;
@@ -41,6 +43,7 @@ body {
 .stat__img-container {
   width: 50%;
   background: #aa5cdb;
+  overflow: hidden;
 }
 .stat__img {
   opacity: 0.6;
@@ -75,6 +78,25 @@ body {
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (max-width: 945px) {
+  .stat__content {
+    flex-direction: column-reverse;
+    height: 800px;
+  }
+  .stat__img, .stat__img-container, .stat__text-container {
+    width: 100%;
+  }
+  .stat__text-container, .stat__img-container {
+    height: 50%;
+  }
+  .stat__text-container {
+    padding: 40px;
+  }
+  .stat__img {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
