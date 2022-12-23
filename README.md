@@ -29,6 +29,7 @@ Users should be able to:
 - Solution URL: [https://github.com/MitiaElodie/stats-preview-card-component-main](https://github.com/MitiaElodie/stats-preview-card-component-main)
 - Live Site URL: [https://stats-preview-card-component-main-khaki-one.vercel.app/](https://stats-preview-card-component-main-khaki-one.vercel.app/)
 
+## My process
 ### Built with
 
 - Semantic HTML5 markup
